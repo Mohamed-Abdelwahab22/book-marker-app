@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(#3e5151 , #DECBA4);
+}
+
+
+h2{
+    position: relative;
+}
+
+h2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 0%;
+    bottom:0%;
+    background-color: black;
+}
